@@ -73,3 +73,17 @@
  # BlockQuote 세로 줄 넣기
  > 세로줄 1
  >  > 세로줄 2 tab 사용!
+ 
+ 
+ # tip
+ 원격 리포지토리를 만들고 push 하지 않은 상태에서
+
+readme 파일을 만들면 push 되지 않음.
+
+git push 오류시 임시 방편으로 해결가능
+
+$ git push -u origin +master
+
+하지만 readme 파일이 삭제되기 때문에
+
+꼭 먼저 push 하고 readme를 만들자..
