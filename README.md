@@ -78,12 +78,12 @@
  # tip
  원격 리포지토리를 만들고 push 하지 않은 상태에서
 
-readme 파일을 만들면 push 되지 않음.
+readme 파일을 만들면 인텔리제이에서 push 되지 않음.
 
-git push 오류시 임시 방편으로 해결가능
+git push 오류시 임시 방편으로 +를 사용해서 해결가능
 
-$ git push -u origin +master
+$ git push -u origin +main
 
-하지만 readme 파일이 삭제되기 때문에
+하지만 readme 파일이 있다면 삭제되기 때문에
 
 꼭 먼저 push 하고 readme를 만들자..
